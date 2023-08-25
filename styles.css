@@ -1,0 +1,161 @@
+body {
+  background-color: rgba(127, 51, 189, 0.5);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: rgb(48, 12, 78);
+  padding: 16px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+ul,
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  height: 250px;
+  max-width: 100%;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 10px;
+  background-color: rgba(124, 69, 168, 0.2);
+  box-shadow: -5px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  height: 25px;
+  padding: 10px;
+  border: 1px solid rgb(71, 24, 109);
+  border-radius: 5%;
+}
+
+a {
+  font-size: 18px;
+  color: rgb(52, 14, 83);
+}
+
+a:hover {
+  color: rgba(71, 24, 109, 0.5);
+}
+
+a:visited {
+  color: rgb(100, 63, 131);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-me {
+  border: 2px solid rgb(71, 24, 109);
+  border-radius: 5%;
+  background-image: linear-gradient(-35deg, rgba(127, 51, 189, 0.1), rgb(127, 51, 189, 0.8));
+  color: rgb(26, 3, 46);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 25px;
+  max-width: 700px;
+  padding: 25px;
+  margin: 16px;
+  text-align: left;
+}
+
+.heading-extra {
+  color: rgb(127, 51, 195);
+  font-size: 35px;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  border: 5px solid rgb(71, 24, 109);
+  box-shadow: -10px 30px 20px -20px rgba(0, 0, 0, 0.61);
+}
+
+.video-games_lists {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.game-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.game-list ol li::marker {
+  color: rgba(100, 45, 129, 0.5);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.game-list ul li::marker {
+  content: '🎮  ';
+}
+
+.baking-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-block: 20px;
+}
+
+.baking-img {
+  border-radius: 5%;
+  border: 3px solid rgb(71, 24, 109);
+  box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.61);
+}
+
+footer p {
+  font-size: 20px;
+  margin: 20px;
+  padding: 5px;
+}
+
+footer hr {
+  border: 2px solid rgb(71, 24, 109);
+}
